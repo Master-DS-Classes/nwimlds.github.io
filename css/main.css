@@ -7,7 +7,7 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -66,21 +66,21 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: white;
+  color: black;
   text-shadow: none;
   background-color: {{ site.hover-col }};
 }
 ::selection {
-  color: white;
+  color: black;
   text-shadow: none;
   background-color: {{ site.hover-col }};
 }
 img::selection {
-  color: white;
+  color: black;
   background: transparent;
 }
 img::-moz-selection {
-  color: white;
+  color: black;
   background: transparent;
 }
 
