@@ -106,7 +106,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col }};
+  background-color: #d4cfcf;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -265,7 +265,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
-  background-color: #808080;
+  background-color: #d4cfcf;
   {% if site.footer-img %}
   background-image: url({{ site.footer-img }});
   background-attachment: fixed;
